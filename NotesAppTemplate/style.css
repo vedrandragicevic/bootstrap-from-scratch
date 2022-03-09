@@ -16,10 +16,23 @@
   .mask-custom {
     /* background: rgba(24, 24, 16, .2); */
     background: black;
-    border-radius: 2em;
+    border-radius: 3em;
     backdrop-filter: blur(25px);
     border: 2px solid rgba(255, 255, 255, 0.05);
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
   }
   
+  .body-height-custom {
+    min-height: 100vh;
+  }
+
+
+  .fill { 
+    min-height: 100vh;
+}
+
+.body-height {
+  min-height: 100%;
+}
+
