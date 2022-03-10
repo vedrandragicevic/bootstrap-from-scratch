@@ -39,3 +39,22 @@
 .vefixy {
   width: 10px;
 }
+
+/* FORMS */
+.form-link {
+  color: #0AC2E5;
+}
+
+a.form-link:hover {
+  color: #138FA7;
+}
+
+.name{
+  text-align: left;
+    float:left;
+}
+
+.value{
+  text-align:left;
+  float:left;
+}

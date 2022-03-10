@@ -81,7 +81,7 @@
     
         <!-- Left links -->
         <div class="d-flex align-items-center">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#">My Notes</a>
           </li>
@@ -95,10 +95,10 @@
         <!-- Left links -->
   
         
-          <button type="button" class="btn btn-link px-3 me-2">
+          <button type="button" class="btn btn-info me-3">
             Login
           </button>
-          <button type="button" class="btn btn-primary me-3">
+          <button type="button" class="btn btn-info me-3">
             Sign up for free
           </button>
           <button type="button" class="btn btn-light me-3">
@@ -125,42 +125,63 @@
 
         <div class="container py-5 h-100">
          
+
+          <!--  CARD CONTENT  -->
           <div class="row d-flex justify-content-center">
 
-            <div class="col-md-8">
+            <!-- Div that determines width of the card -->
+            <div class="col-md-6">
       
               <div class="card mask-custom">
-                <div class="card-body p-4 text-center">
-      
-                  <div class="text-center pt-3 pb-2">
-                    
+                <div class="col-md-8 card-body p-4 text-center mx-auto">
+
+                  <!-- Card Header -->
+                  <div class="text-center pt-3 pb-2">    
                     <i class="fas fa-users fa-4x" style="color: #f08e33"></i>
-                    
-                    <h2 class="my-4 display-4">Welcome to Notes Application!</h2>
+                            <h3>Account Login</h3>
+                            <small class="text-muted">Hello User, Welcome Back!</small>
                   </div>
-                  
+                  <!-- Card Header -->
       
-                  <p class="fw-bold">Bold text.</p>
-                  <p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
-                  <p class="fw-normal">Normal weight text.</p>
-                  <p class="fw-light">Light weight text.</p>
-                  <p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
-                  <p class="fst-italic">Italic text.</p>
-                  <p class="fst-normal">Text without font style</p>
-                  <p>Please <strong>Login</strong> To View Your Notes.</p>
-                  <button type="button" class="btn btn-info btn-lg">LOGIN</button>
+                <!-- Login Form -->
+                <form>
+                <label class="form-label name pt-2" for="form1Example1">Username</label>
+                <input type="email" id="form1Example1" class="form-control" placeholder="Enter your username..."/>
                   
+                <label class="form-label name pt-3" for="form1Example2">Password</label>
+                <input type="password" id="form1Example2" class="form-control" placeholder="••••••••"/>
+                  
+                  
+                    <!-- 2 column grid layout for inline styling -->
+                    <div class="row mb-4 pt-3">
+                      <!-- Submit login button -->
+                      <div class="col">
+                        <a href="#"><button type="button" class="btn btn-info">LOGIN</button></a>  
+                      </div>
+                      <!-- Submit login button -->
+                      <!-- Forgot password link -->
+                      <div class="col">
+                        <a href="#" class="form-link">Forgot password?</a>
+                      </div>
+                      <!-- Forgot password link -->
+                    </div>
+                    <!-- 2 column grid layout for inline styling -->
+                  </form>
+                  <!-- Login Form -->
+                 
       
       
                 </div>
               </div>
       
             </div>
+            <!-- Div that determines width of the card -->
          </div>
+         <!--  CARD CONTENT  -->
+
+
+
         </div>
-
-
-      
     </div>
     <!-- End Main Container Div -->
 
